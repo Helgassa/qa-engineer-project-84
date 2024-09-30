@@ -1,1 +1,39 @@
+---
+- summary: |
+   Поиск товара по ключевому слову
+   status: pass
 
+- summary: |
+   Поиск товара по категории
+    status: pass
+
+- summary: |
+   Фильтр по цене
+   status: pass
+
+- summary: |
+   Фильтр по брэнду
+    status: pass
+
+- summary: |
+    Карточка товара с его подробным описанием
+    status: pass
+
+- summary: |
+    Работоспособность корзины
+    status: pass
+
+- summary: |
+    Проверка работоспособности кнопок "next" и "previous"
+     status: pass
+
+- summary: |
+    Проверка работоспособности кнопки "language" и смены языка
+    status: pass
+    
+    
+    
+   
+   
+  
+   
