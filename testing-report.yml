@@ -1,23 +1,23 @@
 ---
 - summary: |
    Поиск товара по ключевому слову
-   status: pass
+status: pass
 
 - summary: |
    Поиск товара по категории
-    status: pass
+status: pass
 
 - summary: |
    Фильтр по цене
-   status: pass
+status: pass
 
 - summary: |
    Фильтр по брэнду
-    status: pass
+status: pass
 
 - summary: |
     Карточка товара с его подробным описанием
-    status: pass
+status: pass
 
 - summary: |
     Работоспособность корзины
@@ -25,11 +25,11 @@
 
 - summary: |
     Проверка работоспособности кнопок "next" и "previous"
-     status: pass
+status: pass
 
 - summary: |
     Проверка работоспособности кнопки "language" и смены языка
-    status: pass
+status: pass
     
     
     
