@@ -6,8 +6,7 @@ requirement: |
 prerequisites: |
    no data
 test-data: |
-   - Red Lipstick
-   - Red nail Polish
+   no data
 steps: | 
    - Вводим название в поисковую строку
 expected-result: |
@@ -20,8 +19,7 @@ requirement: |
 prerequisites: |
    no data
 test-data: |
-   - 123```345
-   - Gftryiti
+   no data
 steps: |
    - Вводим название в поисковую строку
 expected-result: |
@@ -34,8 +32,7 @@ requirement: |
 prerequisites: |
    no data
 test-data: |
-    - Gucci
-    - Dior
+   no data
 steps: |
    - Отмечаем галочкой категорию fragrances
 expected-result: |
@@ -48,7 +45,7 @@ requirement: |
 prerequisites: |
    no data
 test-data: |
-    - Gucci
+   no data
 steps: |
    - Отмечаем галочкой любую категорию не fragrances
 expected-result: |
@@ -61,7 +58,7 @@ requirement: |
 prerequisites: |
    no data
 test-data: |
-   - Цена в диапазоне от 1 до 12
+   no data
 steps: | 
    - Воодим необходимый диапазон цены
 expected-result: |
@@ -74,7 +71,7 @@ requirement: |
 prerequisites: |
    no data
 test-data: |
-   - Цена в диапазоне от -1 до 1000000000
+   no data
 steps: | 
    - Воодим необходимый диапазон цены
 expected-result: |
@@ -87,7 +84,7 @@ requirement: |
 prerequisites: |
    no data
 test-data: |
-   - Dior
+   no data
 steps: | 
    - Отмечаем галочку Dior
 expected-result: |
@@ -100,7 +97,7 @@ requirement: |
 prerequisites:
     no data
 test-data: |
-    - Nescafe
+    no data
 steps: |
    - Нажимаем на название товара либо его описание 
 expected-result: |
@@ -113,7 +110,7 @@ requirement: |
 prerequisites:
     no data
 test-data: |
-    - Nescafe
+    no data
 steps: |
    - Нажимем на кнопку "add to cart"
    - Нажимаем на кнопку "cart"
@@ -128,7 +125,7 @@ requirement: |
 prerequisites:
     no data
 test-data: |
-    Логин = Логин = hexlet Пароль = badpass
+    no data
 steps: |
    - Нажимаем кнопку "next" 
    - Нажимаем кнопку "previous
@@ -145,8 +142,7 @@ requirement: |
 prerequisites:
     no data
 test-data: |
-    Русский интерфейс на сайте
-    Английский интерфес на сайте
+    no data
 steps: |    
    - Нажимаем кнопку "language" 
    - Нажимаем на кнопку "русский" при английском интерфейсе
