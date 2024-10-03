@@ -1,41 +1,41 @@
 ---
 - summary: |
     У сайта отсутствует возможность регистрации нового пользователя и создание личного кабинета
-environment: |
+  environment:|
     Win 10 Yandex Версия 24.7
-steps-to-reproduce: |
+  steps-to-reproduce: |
     Открытие url адреса сайта
     Просмотр всех элементов сайта
-expected-result: |
+  expected-result: |
     Зарегестрированный пользователь имеющий возможность войти в свой личный кабинет
-actual-result: |
+  actual-result: |
     Форма регистрации отсутсвует
 
 
 - summary: |
     У сайта плохая оптимизация для мобильных устройств и планшетов. Элементы интерфейса выглядят неприглядно и наплывают друг на друга
-environment: |
+  environment: |
     Win 10 Yandex Версия 24.7
-steps-to-reproduce: |
+  steps-to-reproduce: |
     Открытие devtools
     С помощью инструмента Toogle device toolbar эмуляция предполагаемых экранов мобильных устойств
-expected-result: |
+  expected-result: |
     Элементы на странице должны быть визуально приятными и не мешать друг другу
-actual-result: |
+  actual-result: |
     Сайт "плывет" в мобильной версии и любой другой где открытие происходит не через браузер на компьютере
     Ошибка в файле png 327
 
 
 - summary: |
     Сайт не открывается на версии браузера Safari 5.1.5
-environment: |
+  environment: |
     Win 10 Yandex Версия 24.7 эмуляция браузера Safari
-steps-to-reproduce: |
+  steps-to-reproduce: |
     Заход на сайт https://www.browserling.com
     С помощью инструмента эмуляции открытие станицы магазина с помощью браузера Safari
-expected-result: |
+  expected-result: |
     Сайт должен беспрепятсвенно открыться и быть функциональным
-actual-result: |
+  actual-result: |
     Сайт не открывается ( предупреждения об несовместимости нет)
     Ошибка в файле png 328
 
