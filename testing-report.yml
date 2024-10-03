@@ -21,7 +21,7 @@
 
 - summary: |
     Работоспособность корзины
-    status: pass
+  status: pass
 
 - summary: |
     Проверка работоспособности кнопок "next" и "previous"
