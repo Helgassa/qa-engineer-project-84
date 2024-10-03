@@ -1,131 +1,139 @@
 ---
 - summary: |
    Поиск товара по ключевому слову 
-requirement: |
+  requirement: |
    При вводе названия в строку поиска на станице должен отображаться искомый товар
-prerequisites: |
+  prerequisites: |
    no data
-test-data: |
+  test-data: |
    no data
-steps: | 
+  steps: | 
    - Вводим "red lipstick" в поисковую строку
    - Вводим "whiskas" в поисковую строку
-expected-result: |
+  expected-result: |
    Отображаются товары согласно запроса
    
 - summary: |
    Проверка плейсхолдера если ничего не найдено в поиске
-requirement: |
+  requirement: |
    При вводе несответствуюшего значения система должна выдавать пустую страницу
-prerequisites: |
+  prerequisites: |
    no data
-test-data: |
+  test-data: |
    no data
-steps: |
+  steps: |
    - Вводим "yellow lipstick" в поисковую строку
    - Вводим "whOskas" в поисковую строку
-expected-result: |
+  expected-result: |
    Товары не отображаются
 
 - summary: |
    Поиск товара по категории
-requirement: |
+  requirement: |
    При выборе категории на странице должен отображаться товар соответсвующий выбранной категории
-prerequisites: |
+  prerequisites: |
    no data
-test-data: |
+  test-data: |
    no data
-steps: |
+  steps: |
    - Отмечаем галочкой категорию fragrances
-expected-result: |
+  expected-result: |
    Отображается товар выбранной категории
    
 - summary: |
    Проверка фильтрации по цене
-requirement: |
+  requirement: |
    При выставлении диапазона допустимой цены на станице должен отобразиться товар соответствующей заданному диапазону
-prerequisites: |
+  prerequisites: |
    no data
-test-data: |
+  test-data: |
    no data
-steps: | 
+  steps: | 
    - Вводим необходимый диапазон цены
-expected-result: |
+  expected-result: |
     Отображаются товары выбранного диапазона
    
 - summary: |
    Проверка фильтрации по бренду
-requirement: |
+  requirement: |
    При выставлении галочки брэнда пользователь должен найти товар соответствующий фильтру
-prerequisites: |
+  prerequisites: |
    no data
-test-data: |
+  test-data: |
    no data
-steps: | 
+  steps: | 
    - Отмечаем галочку Dior
-expected-result: |
+  expected-result: |
    Отображается товар Dior
 
 - summary: |
-    Карточка товара с его подробным описанием
-requirement: |
+    Проверка открытия карточки товара
+  requirement: |
     Пользователь должен иметь возможность ознакомиться с более подробным описанием товара
-prerequisites:
+  prerequisites:
     no data
-test-data: |
+  test-data: |
     no data
-steps: |
-   - Нажимаем на название товара либо его описание 
-expected-result: |
-    Разворачивается более подробное описание товара
+  steps: |
+   - Выбрать любой товар, нажать на выбранный товар 
+  expected-result: |
+     Открывается карточка с подробным описанием
 
 - summary: |
-    Работоспособность корзины
-requirement: |
+    Проверка добавления товара в корзину
+  requirement: |
     Пользователь должен иметь возможность добавлять товары в коризну и просматривать её содержимое
-prerequisites:
+  prerequisites:
     no data
-test-data: |
+  test-data: |
     no data
-steps: |
+  steps: |
    - Нажимем на кнопку "add to cart"
    - Нажимаем на кнопку "cart"
-expected-result: |
-     Товар добавляется в корзину
+  expected-result: |
+     Товар успешно добавлен и отобржается в корзине
 
 - summary: |
-    Проверка работоспособности кнопок "next" и "previous"
-requirement: |
+    Проверка переключения страниц каталога
+  requirement: |
     При нажати на кнопку "next" отображается следующая страница с товаром
     При нажати на кнопку "previous" отображается предыдущая страница с товаром
-prerequisites:
+  prerequisites:
     no data
-test-data: |
+  test-data: |
     no data
-steps: |
+  steps: |
    - Нажимаем кнопку "next" 
    - Нажимаем кнопку "previous
-expected-result: |
-     При нажатии на кнопку "next" должен произойти переход на следующую страницу
-     При нажатии на кнопку "previous" должен произойти переход на предыдущую страницу
+  expected-result: |
+     Страницы каталога переключаются
    
 - summary: |
-    Проверка работоспособности кнопки "language" и смены языка
-requirement: |
-    При нажати на кнопку "language" разворачиваются два варианта доступного языка (English и Русский)
-    При нажати на кнопку "русский" интерфейс сайта меняется на русский язык
-    При нажати на кнопку "english" интерфейс сайта меняется на английский язык
-prerequisites:
+    Проверка смены локали на русскую
+  requirement: |
+    При нажатии на кнопку "русский" интерфейс сайта меняется на русский
+  prerequisites:
     no data
-test-data: |
-    no data
-steps: |    
+  test-data: |
+    Английский интерфейс сайта
+  steps: |    
    - Нажимаем кнопку "language" 
-   - Нажимаем на кнопку "русский" при английском интерфейсе
-   - Нажимаем на кнопку "english" при английском интерфейсе
-expected-result: |
-     При нажатии на кнопку "language" разворачивается выбор языка
-     При нажатии на кнопку русский" интерфес на сайте должен стать русскоязычным
-     При нажатии на кнопку "engkish" интерфейс на сайте должен стать англоязычным
+   - Нажимаем на кнопку "русский" 
+  expected-result: |
+    При нажатии на кнопку "русский" интерфейс становится русскоязычным
+
+- summary: |
+    Проверка смены локали на русскую
+  requirement: |
+    При нажатии на кнопку "english" интерфейс сайта меняется на английский язык
+  prerequisites:
+    no data
+  test-data: |
+    Русский интерфейс сайта
+  steps: |    
+   - Нажимаем кнопку "language" 
+   - Нажимаем на кнопку "english" 
+  expected-result: |
+    При нажатии на кнопку "english" интерфейс становится англоязычным
   
      
