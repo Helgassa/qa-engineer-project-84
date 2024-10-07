@@ -1,2 +1,62 @@
 ---
-  bugreports: []
+  bugreports: 
+  - summary: |
+    Не подгружаются некоторые картинки (на главной странице и в корзине)
+    Win 10 Yandex Версия 24.7
+  steps-to-reproduce: |
+    Открытие devtools
+    С помощью инструмента Network проверка отправляемых на сервер запрсов
+  expected-result: |
+    Все картинки подгружаются
+  actual-result: |
+    Не подгружаются некоторые картинки
+    Ошибка в папке screenshots 
+
+- summary: |
+    Не работает кнопка Сheckout  при заказе товара из корзины
+    Win 10 Yandex Версия 24.7
+  steps-to-reproduce: |
+    Открытие devtools
+    С помощью инструмента Network проверка отправляемых на сервер запрсов
+  expected-result: |
+    Все картинки подгружаются
+  actual-result: |
+    Не подгружаются некоторые картинки
+    Ошибка в папке screenshots 
+
+- summary: |
+    Ошибка 304 в карточке товара
+    Win 10 Yandex Версия 24.7
+  steps-to-reproduce: |
+    Открытие devtools
+    С помощью инструмента Network проверка отправляемых на сервер запрсов
+  expected-result: |
+    Работа серверной части по коду 200
+  actual-result: |
+    Ошибка 304
+    Ошибка в папке screenshots 
+
+
+- summary: |
+    Нет запроса на сервер при добавлении товара в коризину, кнопка add to cart
+    Win 10 Yandex Версия 24.7
+  steps-to-reproduce: |
+    Открытие devtools
+    Добавление товара в корзину
+    С помощью инструмента Network проверка отправляется ли запрос
+  expected-result: |
+    Отправленный запрос
+  actual-result: |
+    Запрос не отпрален
+
+- summary: |
+    Нет запроса на сервер при удалении товара из корзины, кнопка delete
+    Win 10 Yandex Версия 24.7
+  steps-to-reproduce: |
+    Открытие devtools
+    Удаление товара из корзины кнопкой delete
+    С помощью инструмента Network проверка отправляется ли запрос
+  expected-result: |
+    Отправленный запрос
+  actual-result: |
+    Запрос не отпрален 
