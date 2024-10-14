@@ -1,7 +1,8 @@
 ---
   bugreports: 
-  - summary: |
+- summary: |
     Не подгружаются некоторые картинки (на главной странице и в корзине)
+  environment: |
     Win 10 Yandex Версия 24.7
   steps-to-reproduce: |
     Открытие devtools
@@ -14,6 +15,7 @@
 
 - summary: |
     Не работает кнопка Сheckout  при заказе товара из корзины
+  environment: |
     Win 10 Yandex Версия 24.7
   steps-to-reproduce: |
     Открытие devtools
@@ -26,6 +28,7 @@
 
 - summary: |
     Ошибка 304 в карточке товара
+  environment: |
     Win 10 Yandex Версия 24.7
   steps-to-reproduce: |
     Открытие devtools
