@@ -7,7 +7,7 @@
    no data
   test-data: |
    no data
-  steps: | 
+  steps: 
    - Вводим "red lipstick" в поисковую строку
    - Вводим "whiskas" в поисковую строку
   expected-result: |
@@ -21,7 +21,7 @@
    no data
   test-data: |
    no data
-  steps: |
+  steps: 
    - Вводим "yellow lipstick" в поисковую строку
    - Вводим "whOskas" в поисковую строку
   expected-result: |
@@ -35,7 +35,7 @@
    no data
   test-data: |
    no data
-  steps: |
+  steps: 
    - Отмечаем галочкой категорию fragrances
   expected-result: |
    Отображается товар выбранной категории
@@ -48,7 +48,7 @@
    no data
   test-data: |
    no data
-  steps: | 
+  steps: 
    - Вводим необходимый диапазон цены
   expected-result: |
     Отображаются товары выбранного диапазона
@@ -61,7 +61,7 @@
    no data
   test-data: |
    no data
-  steps: | 
+  steps: 
    - Отмечаем галочку Dior
   expected-result: |
    Отображается товар Dior
@@ -74,7 +74,7 @@
     no data
   test-data: |
     no data
-  steps: |
+  steps:
    - Выбрать любой товар, нажать на выбранный товар 
   expected-result: |
      Открывается карточка с подробным описанием
@@ -87,7 +87,7 @@
     no data
   test-data: |
     no data
-  steps: |
+  steps: 
    - Нажимем на кнопку "add to cart"
    - Нажимаем на кнопку "cart"
   expected-result: |
@@ -102,7 +102,7 @@
     no data
   test-data: |
     no data
-  steps: |
+  steps: 
    - Нажимаем кнопку "next" 
    - Нажимаем кнопку "previous
   expected-result: |
@@ -116,7 +116,7 @@
     no data
   test-data: |
     Английский интерфейс сайта
-  steps: |    
+  steps:   
    - Нажимаем кнопку "language" 
    - Нажимаем на кнопку "русский" 
   expected-result: |
@@ -130,7 +130,7 @@
     no data
   test-data: |
     Русский интерфейс сайта
-  steps: |    
+  steps:    
    - Нажимаем кнопку "language" 
    - Нажимаем на кнопку "english" 
   expected-result: |
