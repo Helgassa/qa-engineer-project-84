@@ -26,20 +26,6 @@
     Ошибка в папке screenshots 
 
 - summary: |
-    Ошибка 304 в карточке товара
-  environment: |
-    Win 10 Yandex Версия 24.7
-  steps-to-reproduce: |
-    Открытие devtools
-    С помощью инструмента Network проверка отправляемых на сервер запрсов
-  expected-result: |
-    Работа серверной части по коду 200
-  actual-result: |
-    Ошибка 304
-    Ошибка в папке screenshots 
-
-
-- summary: |
     Нет запроса на сервер при добавлении товара в коризину, кнопка add to cart
   environment: |
     Win 10 Yandex Версия 24.7
