@@ -1,10 +1,10 @@
 ---
   bugreports: 
   
-- summary: |
+- summary: 
     Ошибка 500 при оформлении товара
   status: fail
 
-- summary: |
+- summary:
      Удалённые из корзины товары остаются в корзине после перезагрузки корзины
   status: fail
