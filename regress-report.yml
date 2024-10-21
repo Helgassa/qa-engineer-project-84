@@ -2,45 +2,45 @@
 test-cases:
   - summary: |
       Поиск товара по ключевому слову 
-  - status: pass
+    status: pass
 
   - summary: |
       Проверка плейсхолдера если ничего не найдено в поиске
-  - status: pass
+    status: pass
 
   - summary: |
       Поиск товара по категории
-  - status: pass
+    status: pass
 
   - summary: |
       Проверка фильтрации по цене
-  - status: pass
+     status: pass
 
   - summary: |
       Проверка фильтрации по бренду
-  - status: pass
+    status: pass
 
-   - summary: |
+  - summary: |
        Проверка открытия карточки товара
-   - status: pass
+    status: pass
 
-   - summary: |
+  - summary: |
        Проверка добавления товара в корзину
-   - status: pass
+    status: pass
 
-   - summary: |
+  - summary: |
        Проверка переключения страниц каталога
-   - status: pass
+    status: pass
 
-   - summary: |
+  - summary: |
        Проверка смены локали на русскую
-   - status: pass
+    status: pass
 
-   - summary: |
+  - summary: |
        Проверка смены локали на английскую
-   - status: pass
+    status: pass
 
-bugreports: 
+ bugreports: 
  - summary: |
     Ошибка 500 при оформлении заказа
   environment: |
@@ -55,7 +55,7 @@ bugreports:
     Ошибка в папке screenshots 
 
 
-- summary: |
+ - summary: |
     Удаленные из корзины товары остаются в корзине после перезагрузки корзины
   environment: |
     Win 10 Yandex Версия 24.7
