@@ -39,8 +39,8 @@ test-cases:
   - summary: |
       Проверка смены локали на английскую
     status: pass
-
- bugreports: 
+    
+bugreports: 
  - summary: |
     Ошибка 500 при оформлении заказа
   environment: |
