@@ -2,15 +2,15 @@
 test-cases:
   - summary: |
       Поиск товара по ключевому слову 
-    status: pass
+     status: pass
 
   - summary: |
       Проверка плейсхолдера если ничего не найдено в поиске
-    status: pass
+     status: pass
 
   - summary: |
       Поиск товара по категории
-    status: pass
+     status: pass
 
   - summary: |
       Проверка фильтрации по цене
@@ -18,27 +18,27 @@ test-cases:
 
   - summary: |
       Проверка фильтрации по бренду
-    status: pass
+     status: pass
 
   - summary: |
       Проверка открытия карточки товара
-    status: pass
+     status: pass
 
   - summary: |
       Проверка добавления товара в корзину
-    status: pass
+     status: pass
 
   - summary: |
       Проверка переключения страниц каталога
-    status: pass
+     status: pass
 
   - summary: |
       Проверка смены локали на русскую
-    status: pass
+     status: pass
 
   - summary: |
       Проверка смены локали на английскую
-    status: pass
+     status: pass
 
  bugreports: 
  - summary: |
